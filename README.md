@@ -36,3 +36,46 @@ smart-parking-lot/
 ├── requirements.txt
 └── README.md
 ```
+
+### API Endpoints
+GET /status: Get the current status of the parking lot.
+POST /initialize: Initialize the parking lot with a specified number of spots.
+POST /arrive: Handle vehicle arrival.
+POST /depart: Handle vehicle departure.
+### Frontend
+The frontend is built using vanilla JavaScript and HTML. It includes the following components:
+
+Controls: Allows users to initialize the parking lot, and manage vehicle arrivals and departures.
+System Status: Displays the queue of waiting vehicles, available parking spots, and parked vehicles.
+Controls
+Initialize Parking Lot: Input the number of parking spots and click "Initialize" to set up the parking lot.
+Vehicle Arrival: Input the license plate number, select the vehicle type (Car, Bike, Truck), and click "Arrive" to add a vehicle to the parking lot or queue.
+Vehicle Departure: Input the license plate number and click "Depart" to remove a vehicle from the parking lot.
+System Status
+Queue Visualization: Displays the queue of waiting vehicles with their license plate numbers and vehicle type emojis.
+Available Parking Spots (Min-Heap): Displays the available parking spots in a min-heap structure.
+Parked Vehicles: Displays the parked vehicles with their license plate numbers, vehicle type emojis, and parking duration.
+### Backend
+The backend is built using Flask and includes the following routes:
+
+/: Render the main page.
+/status: Get the current status of the parking lot.
+/initialize: Initialize the parking lot with a specified number of spots.
+/arrive: Handle vehicle arrival.
+/depart: Handle vehicle departure.
+Data Structures
+vehicle_queue: A deque to manage the queue of waiting vehicles.
+parked_vehicles: A dictionary to store details of parked vehicles.
+available_spots: A min-heap to manage available parking spots.
+### Screenshots
+Initial State 
+Initial State
+
+After Adding Vehicles
+After Adding Vehicles
+
+
+### Acknowledgements
+Flask
+Heapq
+Deque
