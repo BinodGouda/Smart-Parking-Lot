@@ -85,9 +85,9 @@ After Parking Spots Full Vehicles
 
 
 ### Technology Used
-Flask: A micro web framework written in Python. \n
-JavaScript: A programming language used to create dynamic and interactive effects within web browsers.\n
-HTML: The standard markup language for creating web pages.\n
-CSS: A style sheet language used for describing the presentation of a document written in HTML.\n
-Heapq: A Python module that provides an implementation of the heap queue algorithm, also known as the priority queue algorithm.\n
+Flask: A micro web framework written in Python.
+JavaScript: A programming language used to create dynamic and interactive effects within web browsers.
+HTML: The standard markup language for creating web pages.
+CSS: A style sheet language used for describing the presentation of a document written in HTML.
+Heapq: A Python module that provides an implementation of the heap queue algorithm, also known as the priority queue algorithm.
 Deque: A double-ended queue, which allows append and pop operations from both ends of the queue.
