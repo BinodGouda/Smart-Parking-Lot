@@ -51,11 +51,11 @@ The frontend is built using vanilla JavaScript and HTML. It includes the followi
 
 Controls: Allows users to initialize the parking lot, and manage vehicle arrivals and departures. <br>
 System Status: Displays the queue of waiting vehicles, available parking spots, and parked vehicles. <br>
-Controls <br>
+Controls <br> <br>
 Initialize Parking Lot: Input the number of parking spots and click "Initialize" to set up the parking lot. <br>
 Vehicle Arrival: Input the license plate number, select the vehicle type (Car, Bike, Truck), and click "Arrive" to add a vehicle to the parking lot or queue. <br>
 Vehicle Departure: Input the license plate number and click "Depart" to remove a vehicle from the parking lot. <br>
-System Status <br>
+System Status <br><br>
 Queue Visualization: Displays the queue of waiting vehicles with their license plate numbers and vehicle type emojis.<br>
 Available Parking Spots (Min-Heap): Displays the available parking spots in a min-heap structure.<br>
 Parked Vehicles: Displays the parked vehicles with their license plate numbers, vehicle type emojis, and parking duration.<br>
@@ -66,8 +66,8 @@ The backend is built using Flask and includes the following routes:<br>
 /status: Get the current status of the parking lot.<br>
 /initialize: Initialize the parking lot with a specified number of spots.<br>
 /arrive: Handle vehicle arrival.<br>
-/depart: Handle vehicle departure.<br>
-Data Structures<br>
+/depart: Handle vehicle departure.<br><br>
+Data Structures<br><br>
 vehicle_queue: A deque to manage the queue of waiting vehicles.<br>
 parked_vehicles: A dictionary to store details of parked vehicles.<br>
 available_spots: A min-heap to manage available parking spots.<br>
