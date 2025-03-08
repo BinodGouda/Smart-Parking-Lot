@@ -73,10 +73,12 @@ parked_vehicles: A dictionary to store details of parked vehicles.
 available_spots: A min-heap to manage available parking spots.
 ### Screenshots
 Initial State 
-Initial State
+![image](https://github.com/user-attachments/assets/5537ff90-9a4a-46e7-bdbc-ffd01bf895ee)
+
 
 After Adding Vehicles
-After Adding Vehicles
+![image1](https://github.com/user-attachments/assets/1920fe92-304a-4781-993e-599b4f17d70f)
+
 
 
 ### Acknowledgements
