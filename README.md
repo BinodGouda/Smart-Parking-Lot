@@ -66,7 +66,7 @@ The backend is built using Flask and includes the following routes:<br>
 /initialize: Initialize the parking lot with a specified number of spots.<br>
 /arrive: Handle vehicle arrival.<br>
 /depart: Handle vehicle departure.<br><br>
-Data Structures<br><br>
+### Data Structures
 vehicle_queue: A deque to manage the queue of waiting vehicles.<br>
 parked_vehicles: A dictionary to store details of parked vehicles.<br>
 available_spots: A min-heap to manage available parking spots.<br>
