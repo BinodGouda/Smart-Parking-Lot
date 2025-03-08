@@ -75,8 +75,11 @@ available_spots: A min-heap to manage available parking spots.
 Initial State 
 ![image](https://github.com/user-attachments/assets/5537ff90-9a4a-46e7-bdbc-ffd01bf895ee)
 
-
 After Adding Vehicles
+![image](https://github.com/user-attachments/assets/38ad3bd6-a96c-4eea-b8cc-16a3aff54fd7)
+
+
+After Parking Spots Full Vehicles
 ![image1](https://github.com/user-attachments/assets/1920fe92-304a-4781-993e-599b4f17d70f)
 
 
