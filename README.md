@@ -50,12 +50,12 @@ POST /depart: Handle vehicle departure. <br>
 The frontend is built using vanilla JavaScript and HTML. It includes the following components: <br>
 
 Controls: Allows users to initialize the parking lot, and manage vehicle arrivals and departures. <br>
-System Status: Displays the queue of waiting vehicles, available parking spots, and parked vehicles. <br>
-Controls <br> <br>
+System Status: Displays the queue of waiting vehicles, available parking spots, and parked vehicles. <br><br>
+Controls <br> 
 Initialize Parking Lot: Input the number of parking spots and click "Initialize" to set up the parking lot. <br>
 Vehicle Arrival: Input the license plate number, select the vehicle type (Car, Bike, Truck), and click "Arrive" to add a vehicle to the parking lot or queue. <br>
-Vehicle Departure: Input the license plate number and click "Depart" to remove a vehicle from the parking lot. <br>
-System Status <br><br>
+Vehicle Departure: Input the license plate number and click "Depart" to remove a vehicle from the parking lot. <br><br>
+System Status <br>
 Queue Visualization: Displays the queue of waiting vehicles with their license plate numbers and vehicle type emojis.<br>
 Available Parking Spots (Min-Heap): Displays the available parking spots in a min-heap structure.<br>
 Parked Vehicles: Displays the parked vehicles with their license plate numbers, vehicle type emojis, and parking duration.<br>
