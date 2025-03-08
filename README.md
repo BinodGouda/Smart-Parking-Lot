@@ -42,35 +42,35 @@ smart-parking-lot/
 ```
 
 ### API Endpoints
-GET /status: Get the current status of the parking lot.
-POST /initialize: Initialize the parking lot with a specified number of spots.
-POST /arrive: Handle vehicle arrival.
-POST /depart: Handle vehicle departure.
+GET /status: Get the current status of the parking lot. <br>
+POST /initialize: Initialize the parking lot with a specified number of spots.  <br>
+POST /arrive: Handle vehicle arrival. <br>
+POST /depart: Handle vehicle departure. <br>
 ### Frontend
-The frontend is built using vanilla JavaScript and HTML. It includes the following components:
+The frontend is built using vanilla JavaScript and HTML. It includes the following components: <br>
 
-Controls: Allows users to initialize the parking lot, and manage vehicle arrivals and departures.
-System Status: Displays the queue of waiting vehicles, available parking spots, and parked vehicles.
-Controls
-Initialize Parking Lot: Input the number of parking spots and click "Initialize" to set up the parking lot.
-Vehicle Arrival: Input the license plate number, select the vehicle type (Car, Bike, Truck), and click "Arrive" to add a vehicle to the parking lot or queue.
-Vehicle Departure: Input the license plate number and click "Depart" to remove a vehicle from the parking lot.
-System Status
-Queue Visualization: Displays the queue of waiting vehicles with their license plate numbers and vehicle type emojis.
-Available Parking Spots (Min-Heap): Displays the available parking spots in a min-heap structure.
-Parked Vehicles: Displays the parked vehicles with their license plate numbers, vehicle type emojis, and parking duration.
+Controls: Allows users to initialize the parking lot, and manage vehicle arrivals and departures. <br>
+System Status: Displays the queue of waiting vehicles, available parking spots, and parked vehicles. <br>
+Controls <br>
+Initialize Parking Lot: Input the number of parking spots and click "Initialize" to set up the parking lot. <br>
+Vehicle Arrival: Input the license plate number, select the vehicle type (Car, Bike, Truck), and click "Arrive" to add a vehicle to the parking lot or queue. <br>
+Vehicle Departure: Input the license plate number and click "Depart" to remove a vehicle from the parking lot. <br>
+System Status <br>
+Queue Visualization: Displays the queue of waiting vehicles with their license plate numbers and vehicle type emojis.<br>
+Available Parking Spots (Min-Heap): Displays the available parking spots in a min-heap structure.<br>
+Parked Vehicles: Displays the parked vehicles with their license plate numbers, vehicle type emojis, and parking duration.<br>
 ### Backend
-The backend is built using Flask and includes the following routes:
+The backend is built using Flask and includes the following routes:<br>
 
-/: Render the main page.
-/status: Get the current status of the parking lot.
-/initialize: Initialize the parking lot with a specified number of spots.
-/arrive: Handle vehicle arrival.
-/depart: Handle vehicle departure.
-Data Structures
-vehicle_queue: A deque to manage the queue of waiting vehicles.
-parked_vehicles: A dictionary to store details of parked vehicles.
-available_spots: A min-heap to manage available parking spots.
+/: Render the main page.<br>
+/status: Get the current status of the parking lot.<br>
+/initialize: Initialize the parking lot with a specified number of spots.<br>
+/arrive: Handle vehicle arrival.<br>
+/depart: Handle vehicle departure.<br>
+Data Structures<br>
+vehicle_queue: A deque to manage the queue of waiting vehicles.<br>
+parked_vehicles: A dictionary to store details of parked vehicles.<br>
+available_spots: A min-heap to manage available parking spots.<br>
 ### Screenshots
 Initial State 
 ![image](https://github.com/user-attachments/assets/5537ff90-9a4a-46e7-bdbc-ffd01bf895ee)
@@ -85,9 +85,9 @@ After Parking Spots Full Vehicles
 
 
 ### Technology Used
-Flask: A micro web framework written in Python.
-JavaScript: A programming language used to create dynamic and interactive effects within web browsers.
-HTML: The standard markup language for creating web pages.
-CSS: A style sheet language used for describing the presentation of a document written in HTML.
-Heapq: A Python module that provides an implementation of the heap queue algorithm, also known as the priority queue algorithm.
-Deque: A double-ended queue, which allows append and pop operations from both ends of the queue.
+Flask: A micro web framework written in Python.<br>
+JavaScript: A programming language used to create dynamic and interactive effects within web browsers.<br>
+HTML: The standard markup language for creating web pages.<br>
+CSS: A style sheet language used for describing the presentation of a document written in HTML.<br>
+Heapq: A Python module that provides an implementation of the heap queue algorithm, also known as the priority queue algorithm.<br>
+Deque: A double-ended queue, which allows append and pop operations from both ends of the queue.<br>
