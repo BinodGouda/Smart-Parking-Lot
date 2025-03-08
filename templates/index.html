@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking Lot Visualizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Smart Parking Lot Management System</h1>
+        </header>
+
+        <div class="controls">
+            <div class="input-group">
+                <input type="number" id="parkingLotSizeInput" placeholder="Enter number of parking spots" min="1">
+                <button id="initializeBtn">Initialize</button>
+            </div>
+            <div class="input-group">
+                <input type="text" id="licensePlateInput" placeholder="Enter license plate" maxlength="10">
+                <select id="vehicleTypeSelect">
+                    <option value="car">Car</option>
+                    <option value="bike">Bike</option>
+                    <option value="truck">Truck</option>
+                </select>
+                <button id="arriveBtn">Arrive</button>
+                <button id="departBtn">Depart</button>
+            </div>
+        </div>
+
+        <div class="system-status">
+            <div class="section" id="queueSection">
+                <h2>Queue</h2>
+                <div class="queue-visualization" id="queueVisualization">
+                    
+                </div>
+            </div>
+
+            <div class="section" id="heapSection">
+                <h2>Available Parking Spots (Min-Heap)</h2>
+                <div class="heap-visualization" id="heapVisualization">
+                   
+                </div>
+            </div>
+
+            <div class="section" id="parkedSection">
+                <h2>Parked Vehicles</h2>
+                <div class="parking-visualization" id="parkingVisualization">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="notifications">
+            
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>
