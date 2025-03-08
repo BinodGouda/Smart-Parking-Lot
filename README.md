@@ -48,7 +48,6 @@ POST /arrive: Handle vehicle arrival. <br>
 POST /depart: Handle vehicle departure. <br>
 ### Frontend
 The frontend is built using vanilla JavaScript and HTML. It includes the following components: <br>
-
 Controls: Allows users to initialize the parking lot, and manage vehicle arrivals and departures. <br>
 System Status: Displays the queue of waiting vehicles, available parking spots, and parked vehicles. <br><br>
 Controls <br> 
