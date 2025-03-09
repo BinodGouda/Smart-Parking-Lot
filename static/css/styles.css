@@ -5,7 +5,7 @@
     --text: #2E2E2E;
     --card-bg: #E2E8F0;
     --transition: all 0.3s ease;
-}
+}   
 
 * {
     margin: 0;
@@ -47,6 +47,7 @@ h2 {
     gap: 0.5rem;
     margin-bottom: 30px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -104,6 +105,24 @@ button:hover {
 
     #parkedSection {
         grid-column: span 2;
+    }
+    .controls {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .input-group {
+        flex-direction: row;
+        align-items: center;
+        flex: 1;
+    }
+
+    input, select, button {
+        flex: 1;
+    }
+
+    button {
+        flex: none;
     }
 }
 
@@ -256,3 +275,4 @@ button:hover {
         transform: translateX(0);
     }
 }
+
