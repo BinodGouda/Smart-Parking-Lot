@@ -32,10 +32,6 @@ smart-parking-lot/
 ├── templates/
 │   └── index.html
 │
-├── screenshots/
-│   ├── image.png
-│   └── image1.png
-│
 ├── app.py
 ├── requirements.txt
 └── README.md
